@@ -458,6 +458,7 @@ html {
         .mainSection .navbar-list li a {
           padding: 0.6rem; }
   .mainSection .main-container {
+    height: unset;
     width: 100%;
     top: 70%;
     margin: 0 auto; }
@@ -465,8 +466,8 @@ html {
       grid-gap: 0.4rem; }
     .mainSection .main-container .container-body .buttonSearch {
       width: 50%;
-      margin: 0.3rem auto;
-      padding: 0.4rem; }
+      margin: 0.5rem auto;
+      padding: 0.5rem; }
   .sectionRooms {
     margin: 0rem auto; }
     .sectionRooms .form {
@@ -496,6 +497,7 @@ html {
       grid-template-areas: "one one one one one" "two two two two two" "three three three three three" "four four four four four" "five five five five five";
       grid-template-columns: 1fr; }
   .offersSection {
+    height: unset;
     text-align: center;
     align-items: center;
     justify-content: space-around; }
