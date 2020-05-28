@@ -10,3 +10,5 @@ function initMap() {
   let map = new google.maps.Map(document.querySelector("#map"), { options });
   let marker = new google.maps.Marker({ position: chicago, map: map });
 }
+
+console.log("this file")
